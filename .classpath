@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="src" path="gen"/>
+	<classpathentry kind="con" path="com.android.ide.eclipse.adt.ANDROID_FRAMEWORK"/>
+	<classpathentry exported="true" kind="con" path="com.android.ide.eclipse.adt.LIBRARIES"/>
+	<classpathentry exported="true" kind="con" path="com.android.ide.eclipse.adt.DEPENDENCIES"/>
+	<classpathentry kind="lib" path="D:/yue/kuliah/Skripsi-Sesar/File Skripsi/ANDROID/eclipse/plugins/newllib/commons-codec-1.11.jar"/>
+	<classpathentry kind="lib" path="D:/yue/kuliah/Skripsi-Sesar/File Skripsi/ANDROID/eclipse/plugins/newllib/commons-logging-1.2.jar"/>
+	<classpathentry kind="lib" path="D:/yue/kuliah/Skripsi-Sesar/File Skripsi/ANDROID/eclipse/plugins/newllib/fluent-hc-4.5.10.jar"/>
+	<classpathentry kind="lib" path="D:/yue/kuliah/Skripsi-Sesar/File Skripsi/ANDROID/eclipse/plugins/newllib/httpclient-4.5.10.jar"/>
+	<classpathentry kind="lib" path="D:/yue/kuliah/Skripsi-Sesar/File Skripsi/ANDROID/eclipse/plugins/newllib/httpclient-cache-4.5.10.jar"/>
+	<classpathentry kind="lib" path="D:/yue/kuliah/Skripsi-Sesar/File Skripsi/ANDROID/eclipse/plugins/newllib/httpclient-osgi-4.5.10.jar"/>
+	<classpathentry kind="lib" path="D:/yue/kuliah/Skripsi-Sesar/File Skripsi/ANDROID/eclipse/plugins/newllib/httpclient-win-4.5.10.jar"/>
+	<classpathentry kind="lib" path="D:/yue/kuliah/Skripsi-Sesar/File Skripsi/ANDROID/eclipse/plugins/newllib/httpcore-4.4.12.jar"/>
+	<classpathentry kind="lib" path="D:/yue/kuliah/Skripsi-Sesar/File Skripsi/ANDROID/eclipse/plugins/newllib/httpmime-4.5.10.jar"/>
+	<classpathentry kind="lib" path="D:/yue/kuliah/Skripsi-Sesar/File Skripsi/ANDROID/eclipse/plugins/newllib/jna-4.5.2.jar"/>
+	<classpathentry kind="lib" path="D:/yue/kuliah/Skripsi-Sesar/File Skripsi/ANDROID/eclipse/plugins/newllib/jna-platform-4.5.2.jar"/>
+	<classpathentry kind="output" path="bin/classes"/>
+</classpath>

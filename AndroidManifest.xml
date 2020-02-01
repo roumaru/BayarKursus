@@ -1,0 +1,46 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.bayarkursus"
+    android:versionCode="1"
+    android:versionName="1.0" android:installLocation="preferExternal">
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="8" />
+    <uses-permission android:name="android.permission.INTERNET"/>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme">
+        
+        <activity android:name="main" android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity><activity android:name="listmenu" android:label="@string/app_name">
+        </activity>
+        
+        
+        <activity 
+            android:name="menu">
+        </activity>
+        <activity 
+            android:name="MenuAdapter">
+        </activity>
+        <activity android:name="cariDataTransaksiMurid"></activity>
+        <activity android:name="DetailTransaksiMurid"></activity>
+        <activity android:name="transaksimurid"></activity>
+        
+        <activity android:name="editMuridActivity"></activity>
+        <activity android:name="addMuridActivity"></activity>
+        <activity android:name="viewMuridActivity"></activity>
+        <activity android:name="laporandatamurid"></activity>
+        <activity android:name="JsonReportMurid"></activity>
+        <activity android:name="laporanpembayaran"></activity>
+        <activity android:name="detaillaporantransaksi"></activity>
+        
+    </application>
+
+</manifest>

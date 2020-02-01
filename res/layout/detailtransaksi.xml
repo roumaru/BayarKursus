@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+<LinearLayout android:orientation="vertical"
+    		  android:layout_width="fill_parent"
+		      android:layout_height="fill_parent" >
+	
+	 <TextView android:layout_width="fill_parent" 
+		  android:layout_height="wrap_content" 
+		  android:text="Data Detail Murid" 
+		  android:textSize="17dp"
+		  android:gravity="center"
+		  android:textStyle="bold"
+		  
+		  android:layout_marginTop="20dip"
+		  android:layout_marginBottom="10dip"/>
+		  	      
+	 <TableLayout
+				android:orientation="vertical"
+			    android:layout_width="fill_parent"
+			    android:layout_height="fill_parent" >
+		
+		<TableRow>
+					 <TextView android:layout_width="fill_parent" 
+							   android:gravity="left" 
+							   
+							   android:layout_height="wrap_content" 
+							   android:text="No Telpon Murid"/>
+				     <TextView android:text=" : " 
+    		     		       />
+    		         <TextView 
+    		         		android:id="@+id/txtNoTelpon"
+    		         		
+    		        		android:layout_width="fill_parent" 
+    				 		android:layout_height="wrap_content"
+    		     		    android:layout_marginBottom="10dip"
+    		     		    />	
+		</TableRow>
+		<TableRow>
+					 <TextView android:layout_width="fill_parent" 
+							   android:gravity="left" 
+							   android:layout_height="wrap_content"  
+							   
+							   android:text="Nama Murid"
+								/>
+				     <TextView 
+				     		android:text=" : "/>
+    		         <TextView android:id="@+id/txtNmMurid"
+    		        		   android:layout_width="fill_parent" 
+    				 		   
+    				 		   android:layout_height="wrap_content"
+    				 		   android:layout_marginBottom="10dip"
+    				 		   />	
+		</TableRow>
+		
+		<TextView android:layout_width="fill_parent" 
+		  android:layout_height="wrap_content" 
+		  android:text="Pembayaran Terakhir" 
+		  android:gravity="center"
+		  android:textStyle="bold"
+		  
+		  android:layout_marginTop="10dip"
+		  android:layout_marginBottom="10dip"/>
+		  
+		<TableRow>
+					 <TextView android:layout_width="fill_parent" 
+							   
+							   android:gravity="left" 
+							   android:layout_height="wrap_content" 
+							   android:text="Bulan"/>
+				     <TextView 
+				         	
+				     		android:text=" : " />
+    		         <TextView android:id="@+id/txtBulan"
+    		        		   
+    		        		   android:layout_width="fill_parent" 
+    				 		   android:layout_height="wrap_content"
+    				 		   android:layout_marginBottom="10dip"/>	
+		</TableRow>
+		<TableRow>
+					 <TextView android:layout_width="fill_parent" 
+							   
+							   android:gravity="left" 
+							   android:layout_height="wrap_content" 
+							   android:text="Tahun"/>
+				     <TextView 
+				     		android:text=" : " />
+    		         <TextView android:id="@+id/Tahun"
+    		        		   
+    		        		   android:layout_width="fill_parent" 
+    				 		   android:layout_height="wrap_content"
+    				 		   android:layout_marginBottom="10dip"/>	
+		</TableRow>
+		<TableRow>
+					 <TextView android:layout_width="fill_parent" 
+							   
+							   android:gravity="left" 
+							   android:layout_height="wrap_content" 
+							   android:text="Tunggakan"/>
+				     <TextView 
+				     		android:text=" : " />
+    		         <TextView android:id="@+id/txtTunggakan"
+    		        		   
+    		        		   android:layout_width="fill_parent" 
+    				 		   android:layout_height="wrap_content"
+    				 		   android:layout_marginBottom="10dip"/>	
+		</TableRow>
+		   
+		   <TableRow>
+					 <TextView android:layout_width="fill_parent" 
+							   
+							   android:gravity="left" 
+							   android:layout_height="wrap_content" 
+							   android:text="Sisa"/>
+				     <TextView 
+				     		android:text=" : " />
+    		         <TextView android:id="@+id/TotalBiaya"
+    		        		   
+    		        		   android:layout_width="fill_parent" 
+    				 		   android:layout_height="wrap_content"
+    				 		   android:layout_marginBottom="10dip"
+    				 		   />	
+		</TableRow>
+	 </TableLayout>
+		      	 
+	    <Button 
+	    	android:id="@+id/okdetail"
+	    	android:layout_marginTop="35dip"
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content" 
+			android:text="Next"/>
+</LinearLayout>
+</ScrollView>

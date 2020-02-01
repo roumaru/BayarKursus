@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:text="Pembayaran Kursus"
+         />
+        
+    <TextView
+        	android:layout_width="fill_parent"
+        	android:layout_height="wrap_content"
+        	android:text="" 
+        	/>
+        	
+    <TextView  
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content" 
+    android:text="username"
+    />
+    
+    <EditText
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content" 
+	android:hint="username"    
+	android:id="@+id/u"
+    />
+    
+    <TextView  
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content" 
+    android:text="password"
+    />
+    
+    <EditText
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content" 
+	android:hint="password"    
+	android:id="@+id/p"
+	android:inputType="textPassword"
+    />
+    
+    <Button
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content" 
+    android:id="@+id/buttonLogin"
+    android:layout_marginTop="35dip"
+    android:text="Login"
+    />
+    
+    <Button
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content" 
+    android:layout_marginTop="15dip"
+    android:id="@+id/btnClear"
+    android:text="Clear"
+    />
+    
+    <TextView
+        	android:layout_width="fill_parent"
+        	android:layout_height="wrap_content"
+        	android:text="" />
+    
+    <TextView 
+	android:id="@+id/view"  
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content" 
+    android:text=""
+    />
+    <TextView
+        	android:layout_width="wrap_content"
+        	android:layout_height="wrap_content"
+        	android:text="Login admin"
+        	android:textSize="10dp" 
+        	/>
+        	
+	</LinearLayout>

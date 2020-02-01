@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:padding="7dp" >
+    
+    <TextView
+        android:id="@+id/no_telpon"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="No Telpon"
+        
+        android:padding="2dp"
+        android:textStyle="bold"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textSize="18dp" />
+
+    <TextView
+        android:id="@+id/nama_murid"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        
+        android:padding="2dp"
+        android:textSize="18dp" />
+
+</LinearLayout>

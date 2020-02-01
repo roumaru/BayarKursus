@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:orientation="vertical"
+    android:layout_height="fill_parent" >
+
+    <LinearLayout android:orientation="vertical"
+    		  android:layout_width="fill_parent"
+		      android:layout_height="fill_parent" >
+	
+	 <TextView android:layout_width="fill_parent" 
+		  android:layout_height="wrap_content" 
+		  android:text="Detail Laporan Transaksi" 
+		  android:textSize="17dp"
+		  android:gravity="center"
+		  android:textStyle="bold"
+		  
+		  android:layout_marginTop="20dip"
+		  android:layout_marginBottom="10dip"/>
+		  	      
+	 <TableLayout
+				android:orientation="vertical"
+			    android:layout_width="fill_parent"
+			    android:layout_height="fill_parent" >
+		
+		<TableRow android:layout_marginBottom="5dip">
+					 <TextView android:layout_width="fill_parent" 
+							   android:gravity="left" 
+							   
+							   android:layout_height="wrap_content" 
+							   android:text="No Telpon"/>
+				     <TextView android:text=" : " 
+    		     		       />
+    		         <TextView 
+    		         		android:id="@+id/txtNoTelpon"
+    		         		
+    		        		android:layout_width="fill_parent" 
+    				 		android:layout_height="wrap_content"
+    		     		       />	
+		</TableRow>
+		
+		<TableRow android:layout_marginBottom="5dip">
+					 <TextView android:layout_width="fill_parent" 
+							   android:gravity="left" 
+							   android:layout_height="wrap_content"  
+							   
+							   android:text="Nama"
+								/>
+				     <TextView 
+				     		android:text=" : "/>
+    		         <TextView android:id="@+id/txtNmMurid"
+    		        		   android:layout_width="fill_parent" 
+    				 		   
+    				 		   android:layout_height="wrap_content"
+    				 		   />	
+		</TableRow>
+		
+		<TextView android:layout_width="fill_parent" 
+		  android:layout_height="wrap_content" 
+		  android:text="Terakhir Bayar" 
+		  android:gravity="center"
+		  android:textStyle="bold"
+		  
+		  android:layout_marginTop="10dip"
+		  android:layout_marginBottom="10dip"/>
+		
+		<TableRow>
+					 <TextView android:layout_width="fill_parent" 
+							   
+							   android:gravity="left" 
+							   android:layout_height="wrap_content" 
+							   android:text="Bulan"/>
+				     <TextView 
+				     		android:text=" : " />
+    		         <TextView android:id="@+id/txtBulan"
+    		        		   
+    		        		   android:layout_width="fill_parent" 
+    				 		   android:layout_height="wrap_content"
+    				 		   android:layout_marginBottom="5dip"/>
+    				 	
+			
+		</TableRow>
+		<TableRow>
+					 <TextView android:layout_width="fill_parent" 
+							   
+							   android:gravity="left" 
+							   android:layout_height="wrap_content" 
+							   android:text="Tahun"/>
+				     <TextView 
+				     		android:text=" : " />
+				     <TextView 
+    		        		   android:id="@+id/txtTahun"
+    		        		   
+    		        		   android:layout_width="fill_parent" 
+    				 		   android:layout_height="wrap_content"
+    				 		   android:layout_marginBottom="5dip"/>
+    	</TableRow>
+		
+		
+		<TableRow android:layout_marginBottom="5dip">
+					 <TextView android:layout_width="fill_parent" 
+							   
+							   android:gravity="left" 
+							   android:layout_height="wrap_content" 
+							   android:text="Tunggakan"/>
+				     <TextView 
+				     		android:text=" : " />
+    		         <TextView android:id="@+id/txtTunggakan"
+    		        		   
+    		        		   android:layout_width="fill_parent" 
+    				 		   android:layout_height="wrap_content"/>	
+		</TableRow>
+		
+		<TableRow>
+					 <TextView android:layout_width="fill_parent" 
+							   
+							   android:gravity="left" 
+							   android:layout_height="wrap_content" 
+							   android:text="Sisa"/>
+				     <TextView 
+				     		android:text=" : " />
+    		         <TextView android:id="@+id/TotalBiaya"
+    		        		   
+    		        		   android:layout_width="fill_parent" 
+    				 		   android:layout_height="wrap_content"
+    				 		   android:layout_marginBottom="5dip"
+    				 		   />	
+		</TableRow>
+	<TextView android:layout_marginTop="10dip"
+			android:textSize="14dp"
+			android:textStyle="bold"		
+	 		
+	 		android:text="KETERANGAN :"
+	 />
+	 <TextView android:textStyle="bold"	
+	 		
+	 		android:textSize="12dp"
+	 		android:text="1. Jika ada kesalahan hubungi Ketua RT"
+	 />
+	 <TextView android:textStyle="bold"	
+	 		android:textSize="12dp"
+	 		
+	 		android:text="2. (Tunggakan = 0) telah LUNAS SAMPAI BULAN INI"
+	 />
+	 <TextView android:textStyle="bold"	
+	 		
+	 		android:textSize="12dp"
+	 		android:text="3. (Tunggakan = - Min) telah LUNAS LEBIH DARI BULAN INI"
+	 />
+	 	   
+	 </TableLayout>	
+</LinearLayout>
+    
+
+</ScrollView>

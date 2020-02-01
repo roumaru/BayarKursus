@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical" >
+        
+        <TextView android:layout_width="fill_parent" 
+		  android:gravity="center" 
+		  android:layout_height="wrap_content" 
+		  android:text="Transaksi Murid" 
+		  android:textSize="17dp"
+		  
+		  android:textStyle="bold"/>
+		  	      
+	 		<TableLayout
+				android:orientation="vertical"
+			    android:layout_width="fill_parent"
+			    android:layout_height="fill_parent" >
+		
+			<TableRow>
+					 <TextView android:layout_width="fill_parent" 
+							   android:gravity="left" 
+							   android:layout_height="wrap_content" 
+							    
+							   android:text="No Telpon"
+							   />
+				     <TextView android:text=" : " 
+    		     		       />
+    		         <TextView android:id="@+id/NoTelpon"
+    		        		    
+							   android:layout_width="fill_parent" 
+    				 		   android:layout_height="wrap_content"
+    				 		   />	
+			</TableRow>
+		
+			<TableRow>
+					 <TextView android:layout_width="fill_parent" 
+							   android:gravity="left" 
+							   android:layout_height="wrap_content" 
+							    
+							   android:text="Nama Murid"
+							   />
+				     <TextView android:text=" : " 
+    		     		       />
+    		         <TextView android:id="@+id/NmMurid"
+    		        		   android:layout_width="fill_parent" 
+    				 		   android:layout_height="wrap_content"
+    		     		        />	
+			</TableRow>
+			<TableRow>
+					 <TextView android:layout_width="fill_parent" 
+							   
+							   android:gravity="left" 
+							   android:layout_height="wrap_content" 
+							   android:text="Bulan"/>
+				     <TextView 
+				     		android:text=" : " />
+    		         <TextView android:id="@+id/Bulan"
+    		        		   
+    		        		   android:layout_width="fill_parent" 
+    				 		   android:layout_height="wrap_content"/>	
+		</TableRow>
+		<TableRow>
+					 <TextView android:layout_width="fill_parent" 
+							   
+							   android:gravity="left" 
+							   android:layout_height="wrap_content" 
+							   android:text="Tahun"/>
+				     <TextView 
+				     		android:text=" : " />
+    		         <TextView android:id="@+id/Tahun"
+    		        		   
+    		        		   android:layout_width="fill_parent" 
+    				 		   android:layout_height="wrap_content"
+    				 />	
+		</TableRow>
+			<TableRow>
+					 <TextView android:layout_width="fill_parent" 
+							   android:gravity="left" 
+							   android:layout_height="wrap_content" 
+							    
+							   android:text="Tunggakan"/>
+				     <TextView android:text=" : " 
+    		     		       />
+    		         <TextView android:id="@+id/tunggakan"
+    		        		    
+							   android:layout_width="fill_parent" 
+    				 		   android:layout_height="wrap_content" />	
+			</TableRow>
+			
+			<TableRow>
+					 <TextView android:layout_width="fill_parent" 
+							   
+							   android:gravity="left" 
+							   android:layout_height="wrap_content" 
+							   android:text="Sisa"/>
+				     <TextView 
+				     		android:text=" : " />
+    		         <TextView android:id="@+id/Biaya"
+    		        		   
+    		        		   android:layout_width="fill_parent" 
+    				 		   android:layout_height="wrap_content"/>	
+		</TableRow>
+			
+			         <EditText 
+     						   android:layout_width="fill_parent" 
+     						   android:layout_marginTop="20dp"
+     	                       android:hint="Tahun"
+     	                       android:inputType="number"
+     	                       android:layout_height="wrap_content" 
+     	                       android:id="@+id/tahun">
+                     </EditText>
+    			     <Spinner 
+	                           android:id="@+id/spinnerBln" 
+	                           android:layout_height="wrap_content" 
+	                           android:layout_width="fill_parent">
+	                 </Spinner>
+	                 <EditText 
+							   android:text="" 
+		                       android:id="@+id/dateTransaksi" 
+		                       android:layout_width="fill_parent" 
+		                       android:hint="Tanggal Transaksi"
+		                       android:layout_height="wrap_content" >
+	                </EditText>
+	                <EditText 
+							   android:text="" 
+		                       android:id="@+id/txtKeterangan" 
+		                       android:layout_width="fill_parent" 
+		                       android:hint="Keterangan"
+		                       android:layout_height="wrap_content">
+	                </EditText>
+	                <EditText 
+							   android:text="6000" 
+							   android:hint="Biaya Iuran"
+		                       android:id="@+id/txtiuran" 
+		                       android:layout_width="fill_parent" 
+		                       android:layout_height="wrap_content"
+		                       android:minLines="1" >
+	                </EditText>
+		</TableLayout>
+		      	 
+	    <Button android:id="@+id/simpan"
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:layout_marginTop="20dip"
+			android:layout_marginLeft="15dip"
+			android:layout_marginRight="15dip" 
+			android:text="Proses"
+		/>
+        
+    </LinearLayout>
+    
+
+</ScrollView>
